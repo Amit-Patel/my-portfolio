@@ -54,7 +54,7 @@ export interface Project extends Item {
 		to?: Date;
 	};
 	type: string;
-	skills: Array<Skill>;
+	skills?: Array<Skill>;
 }
 
 export interface Experience extends Project {

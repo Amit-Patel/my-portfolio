@@ -73,7 +73,7 @@ const Assets = {
 	Postcss: a('postcss.svg'),
 	VimblyGroup: a('vimblygroup.svg'),
 	Visa: a('visa.png'),
-	QCRI: a('qcri.png')
+	QCRI: a('qcri.jpeg')
 };
 
 export default Assets;

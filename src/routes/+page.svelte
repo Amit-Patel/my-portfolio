@@ -44,5 +44,5 @@
 		</div>
 	</div>
 	<!-- <Carrousel items={skills ?? MY_SKILLS} /> -->
-	<img src='{base}/images/profile/amit.jpeg' alt="Description of the image">
+	<img src='{base}/images/profile/amit.jpeg' alt="Description of the image" style="width: 150px; height: auto;">
 </div>

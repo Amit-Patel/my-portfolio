@@ -70,7 +70,10 @@ const Assets = {
 	Jest: a('jest.png'),
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
-	Postcss: a('postcss.svg')
+	Postcss: a('postcss.svg'),
+	VimblyGroup: a('vimblygroup.svg'),
+	Visa: a('visa.png'),
+	QCRI: a('qcri.png')
 };
 
 export default Assets;

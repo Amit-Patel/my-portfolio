@@ -15,7 +15,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		name: 'Platform Developer Intern',
 		color: '#171e2e',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.VimblyGroup,
 		shortDescription: ''
 	},
 	{
@@ -30,7 +30,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		name: 'Senior Software Engineer',
 		color: 'blue',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.Visa,
 		shortDescription: ''
 	},
 	{
@@ -45,7 +45,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		name: 'Software Engineer',
 		color: 'blue',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.Visa,
 		shortDescription: ''
 	},
 	{
@@ -60,7 +60,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		name: 'Software Engineer Intern',
 		color: 'blue',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.Visa,
 		shortDescription: ''
 	},
 	{
@@ -75,7 +75,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		name: 'Research Intern',
 		color: 'cyan',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.QCRI,
 		shortDescription: ''
 	}
 ];

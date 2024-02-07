@@ -49,7 +49,7 @@ export const HOME: HomePageParams = {
 	name: 'AMIT',
 	lastName: 'PATEL',
 	description:
-		'Welcome to my developer portfolio! As a seasoned developer specializing in Software Engineering, I thrive on crafting elegant solutions to complex problems. With a track record of delivering high-quality projects and a passion for optimization, innovation and automation, I invite you to explore my portfolio to see how I turn ideas into code. Let's build something extraordinary together!',
+		"Welcome to my developer portfolio! As a seasoned developer specializing in Software Engineering, I thrive on crafting elegant solutions to complex problems. With a track record of delivering high-quality projects and a passion for optimization, innovation and automation, I invite you to explore my portfolio to see how I turn ideas into code. Let's build something extraordinary together!",
 	links: [
 		{ 	platform: Platform.GitHub, 
 			link: 'https://github.com/Amit-Patel' },

@@ -7,6 +7,7 @@
 	import MY_SKILLS from '$lib/skills.params';
 	import { useTitle } from '$lib/utils/helpers';
 	import { isBlank } from '@riadh-adrani/utils';
+	import { base } from '$app/paths';
 
 	const { description, lastName, links, name, title, skills } = HOME;
 
@@ -43,4 +44,5 @@
 		</div>
 	</div>
 	<!-- <Carrousel items={skills ?? MY_SKILLS} /> -->
+	<img src='${base}/images/profile/amit.jpeg' alt="Description of the image">
 </div>

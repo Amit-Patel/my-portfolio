@@ -16,7 +16,7 @@ const MY_PROJECTS: Array<Project> = [
 		period: {
 			from: new Date()
 		},
-		// skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
+		skills: getSkills(),
 		type: 'Website Template',
 		// screenshots: [
 		// 	{

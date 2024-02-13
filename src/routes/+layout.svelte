@@ -11,7 +11,7 @@
 	onMount(() => onHydrated());
 </script>
 
-<div class={`body contents ${$theme ? 'theme-dark' : 'theme-light'}`}>
+<div class={`body contents ${$theme ? 'theme-dark' : 'theme-light'}`} style="--deg:120; --gradient-1:#8AFFD2; --gradient-2:#4499C1;">
 	<NavMenu />
 	<div class="content container"><slot /></div>
 </div>

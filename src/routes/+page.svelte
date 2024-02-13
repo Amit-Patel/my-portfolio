@@ -46,8 +46,8 @@
 	</div>
 	<!-- <Carrousel items={skills ?? MY_SKILLS} /> -->
 	<Card
-		tiltDegree={2}
+		tiltDegree={4}
 	>
-		<img src='{base}/images/profile/amit.jpeg' alt="Description of the image" style="width: 300px; height: auto;">
+		<img src='{base}/images/profile/amit.jpeg' alt="Profile Picture" style="width: 300px; height: auto;">
 	</Card>
 </div>

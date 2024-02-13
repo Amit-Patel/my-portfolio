@@ -116,6 +116,38 @@ const MY_PROJECTS: Array<Project> = [
 		type: 'AL/ML/DL/CV'
 	},
 	{
+		slug: 'cooperative-computing-framework',
+		color: '#ff3e00',
+		description:
+		"Our implementation is based on the paper discussing the extension of the Cooperative Computing System (CCS) framework for prioritizing task execution in distributed computing environments. We have developed a Python-based solution to enhance reliability and timeliness while minimizing resource underutilization and overhead. Leveraging the principles outlined in the paper, our implementation focuses on efficiently scheduling tasks and managing resources to ensure the successful execution of high-priority tasks. By incorporating priority-based task execution and resource allocation strategies, our Python implementation offers a robust framework for addressing the challenges of scalability and reliability in distributed computing environments.",
+		shortDescription:
+			"Our Python implementation extends the CCS framework to prioritize task execution in distributed computing environments. By efficiently scheduling tasks and managing resources, it enhances reliability and timeliness while minimizing overhead.",
+		links: [],
+		logo: Assets.Unknown,
+		name: 'Framework Implementation - Priority Based Task Execution in The Distributed Computing Environment',
+		period: {
+			from: new Date()
+		},
+		skills: getSkills('python'),
+		type: 'Systems'
+	},
+	{
+		slug: 'lbp-based-nlm',
+		color: '#ff3e00',
+		description:
+		"This project implements the LBP based NLM algorithm, combining Local Binary Patterns (LBP) and Non-Local Means (NLM) for image denoising. It utilizes Gaussian noise modeling and a weighting function to restore pixel intensities. The LBP based NLM incorporates both NLM and LBP-based weighting functions to modulate weight functions, enhancing denoising performance. Parameter values used for implementation include specific window sizes and neighborhood considerations.",
+		shortDescription:
+			"This project merges Local Binary Patterns (LBP) with Non-Local Means (NLM) to effectively eliminate Gaussian noise from images, employing tailored parameters for improved denoising outcomes.",
+		links: [],
+		logo: Assets.Unknown,
+		name: 'LBP Based NLM',
+		period: {
+			from: new Date()
+		},
+		skills: getSkills(),
+		type: 'AI/ML/DL/CV'
+	},
+	{
 		slug: 'stateful-nat64-ns3',
 		color: '#ff3e00',
 		description:
@@ -128,7 +160,7 @@ const MY_PROJECTS: Array<Project> = [
 		period: {
 			from: new Date()
 		},
-		skills: getSkills('cpp'),
+		skills: getSkills('python'),
 		type: 'Systems'
 	},
 	{
@@ -162,38 +194,6 @@ const MY_PROJECTS: Array<Project> = [
 		},
 		skills: getSkills('r', 'dbms'),
 		type: 'Systems'
-	},
-	{
-		slug: 'cooperative-computing-framework',
-		color: '#ff3e00',
-		description:
-		"Our implementation is based on the paper discussing the extension of the Cooperative Computing System (CCS) framework for prioritizing task execution in distributed computing environments. We have developed a Python-based solution to enhance reliability and timeliness while minimizing resource underutilization and overhead. Leveraging the principles outlined in the paper, our implementation focuses on efficiently scheduling tasks and managing resources to ensure the successful execution of high-priority tasks. By incorporating priority-based task execution and resource allocation strategies, our Python implementation offers a robust framework for addressing the challenges of scalability and reliability in distributed computing environments.",
-		shortDescription:
-			"Our Python implementation extends the CCS framework to prioritize task execution in distributed computing environments. By efficiently scheduling tasks and managing resources, it enhances reliability and timeliness while minimizing overhead.",
-		links: [],
-		logo: Assets.Unknown,
-		name: 'Framework Implementation - Priority Based Task Execution in The Distributed Computing Environment',
-		period: {
-			from: new Date()
-		},
-		skills: getSkills('python'),
-		type: 'Systems'
-	},
-	{
-		slug: 'lbp-based-nlm',
-		color: '#ff3e00',
-		description:
-		"This project implements the LBP based NLM algorithm, combining Local Binary Patterns (LBP) and Non-Local Means (NLM) for image denoising. It utilizes Gaussian noise modeling and a weighting function to restore pixel intensities. The LBP based NLM incorporates both NLM and LBP-based weighting functions to modulate weight functions, enhancing denoising performance. Parameter values used for implementation include specific window sizes and neighborhood considerations.",
-		shortDescription:
-			"This project merges Local Binary Patterns (LBP) with Non-Local Means (NLM) to effectively eliminate Gaussian noise from images, employing tailored parameters for improved denoising outcomes.",
-		links: [],
-		logo: Assets.Unknown,
-		name: 'LBP Based NLM',
-		period: {
-			from: new Date()
-		},
-		skills: getSkills(),
-		type: 'AI/ML/DL/CV'
 	},
 	{
 		slug: 'compiler-simulator',

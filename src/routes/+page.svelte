@@ -8,6 +8,7 @@
 	import { useTitle } from '$lib/utils/helpers';
 	import { isBlank } from '@riadh-adrani/utils';
 	import { base } from '$app/paths';
+	import Card from '../lib/components/Card/Card.svelte';
 
 	const { description, lastName, links, name, title, skills } = HOME;
 
@@ -44,5 +45,9 @@
 		</div>
 	</div>
 	<!-- <Carrousel items={skills ?? MY_SKILLS} /> -->
-	<img src='{base}/images/profile/amit.jpeg' alt="Description of the image" style="width: 300px; height: auto;">
+	<Card
+		tiltDegree={2}
+	>
+		<img src='{base}/images/profile/amit.jpeg' alt="Description of the image" style="width: 300px; height: auto;">
+	</Card>
 </div>
